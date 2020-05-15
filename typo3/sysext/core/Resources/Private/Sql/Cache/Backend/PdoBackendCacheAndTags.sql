@@ -1,7 +1,7 @@
 BEGIN;
 
 CREATE TABLE "cache" (
-  "identifier" VARCHAR(250) NOT NULL,
+  "identifier" VARCHAR(500) NOT NULL,
   "cache" VARCHAR(250) NOT NULL,
   "context" VARCHAR(150) NOT NULL,
   "created" INTEGER UNSIGNED NOT NULL,
@@ -11,7 +11,7 @@ CREATE TABLE "cache" (
 );
 
 CREATE TABLE "tags" (
-  "identifier" VARCHAR(250) NOT NULL,
+  "identifier" VARCHAR(500) NOT NULL,
   "cache" VARCHAR(250) NOT NULL,
   "context" VARCHAR(150) NOT NULL,
   "tag" VARCHAR(250) NOT NULL
